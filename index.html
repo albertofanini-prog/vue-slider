@@ -25,6 +25,9 @@
             <img :src="sliderItems[selected].img" alt="">
         </div>
         <div class="img_small">
+            <div  v-for="element in sliderItems">
+                <img :src="element.img">
+            </div>
             <button class="prev">
               Prev
             </button>

@@ -37,18 +37,18 @@ const app = new Vue({
 const img_full = document.querySelector('.img_full');
 const img_small = document.querySelector('.img_small');
 
-img_full.innerHTML = `img src="${sliderItems[selected].img}">`;
+//img_full.innerHTML = `img src="${sliderItems[selected].img}">`;
 
 const scrollWrapper = [...document.getElementsByClassName('scrolling-image')];
-scrollWrapper[selected].classList.add('active');
+//scrollWrapper[selected].classList.add('active');
 
 const description = document.querySelector('.description');
 
-let imgTitle = sliderItems[selected].title;
-let imgDescription = sliderItems[selected].text;
+//let imgTitle = sliderItems[selected].title;
+//let imgDescription = sliderItems[selected].text;
 
-imgDescription.innerHTML =
-    `
-    <h2>${imgTitle}</h2> 
-    <p>${imgDescription}</p>
-    `;
+// description.innerHTML =
+//     `
+//     <h2>${Title}</h2> 
+//     <p>${text}</p>
+//     `;

@@ -12,12 +12,18 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div id="app" class="container">
         <div class="description">
-            <h2></h2>
-            <p></p>
+            <h2>
+
+            </h2>
+            <p>
+
+            </p>
         </div>
-        <div class="img_full"></div>
+        <div class="img_full">
+            <img :src="sliderItems[selected].img" alt="">
+        </div>
         <div class="img_small">
             <button class="prev">
               Prev
